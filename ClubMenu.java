@@ -44,7 +44,7 @@ class ClubMenu extends Misc {
 	}
 	void Admin() throws IOException, InterruptedException {
 		Asc();
-		final String PASSWORD = "Kv263";
+		final String PASSWORD = "Password#1024";
 
 		if(!flg) {
 			boolean flg2 = false;
