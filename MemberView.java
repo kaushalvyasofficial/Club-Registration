@@ -28,7 +28,7 @@ public class MemberView extends Misc {
 			P("\t\t|" + dash(5) + "|" + dash(38) + "|");
 			System.out.format("\t\t|7.    |%-39s|\n", "View records by entering the activity.");
 			P("\t\t|" + dash(5) + "|" + dash(38) + "|");
-			System.out.format("\t\t|8.    |%-39s|\n", "View all recordsr.");
+			System.out.format("\t\t|8.    |%-39s|\n", "View all records.");
 			P("\t\t|" + dash(5) + "|" + dash(38) + "|");
 			System.out.format("\t\t|9.    |%-39s|\n", "Return to previous menu.");
 			P("\t\t|" + dash(5) + "|" + dash(38) + "|");
