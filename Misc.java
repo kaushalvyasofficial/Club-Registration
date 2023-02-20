@@ -66,8 +66,12 @@ public class Misc {
 
 			System.out.print("Enter your Member ID:- ");
 			ID = br.readLine().trim().toUpperCase();
-			if(flg) {if(ID.equals("AM")) menu(2);}
-			else    {if(ID.equals("UM")) menu(3);}
+			if(flg) {
+				if(ID.equals("AM")) menu(2);
+			}
+			else {
+				if(ID.equals("UM")) menu(3);
+			}
 
 			if(ID.length() > 1) {
 				if(ID.charAt(0) != 'M') {
