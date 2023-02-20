@@ -2,7 +2,7 @@ import java.io.*;
 class ClubMenu extends Misc {
 	static private int ct = 0;
 	static private boolean flg = false;
-
+	
 	void Menu() throws IOException, InterruptedException {
 		Asc();
 		int n = 0, choice = 0;
@@ -37,8 +37,7 @@ class ClubMenu extends Misc {
 		switch(choice) {
 			case 1: Admin();
 			case 2: User();
-			default:
-			P("\n\n\t\t>>>>>>> Thank You Very Much For Coming!!! <<<<<<<\n");
+			default: P("\n\n\t\t>>>>>>> Thank You Very Much For Coming!!! <<<<<<<\n");
 			System.exit(0);
 		}
 	}
